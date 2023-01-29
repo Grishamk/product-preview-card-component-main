@@ -1,0 +1,142 @@
+:root {
+    /*Colores primarios*/
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /*Neutrales*/
+    --Very-darkblue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    /*Fuentes*/
+    --primaryFont: 'Montserrat', sans-serif;
+    --secondaryFont: 'Fraunces', serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    width: 80%;
+    max-width: 375px;
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+
+main picture img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 12px;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-container__perfume {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 8px;
+    letter-spacing: 5px;
+    color: var(--Dark-grayish-blue);
+    font-family: var(--primaryFont);
+    margin-bottom: 12px;
+}
+
+.main-container__tittle {
+    font-size: 2.4rem;
+    font-family: var(--secondaryFont);
+    color: var(--Very-darkblue);
+    line-height: 2.4rem;
+    margin-bottom: 12px;
+}
+
+.main-container__p {
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    color: var(--Dark-grayish-blue);
+    font-weight: 500;
+}
+
+.main-container__price {
+    font-size: 2.4rem;
+    color: var(--Dark-cyan);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.main-container__price span {
+    font-size: 1.4rem;
+    color: var(--Dark-grayish-blue);
+    font-weight: 500;
+    text-decoration: line-through;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.main-container button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    color: var(--White);
+    margin-bottom: 20px;
+    background-color: var(--Dark-cyan);
+    font-weight: 700;
+}
+
+.main-container button span {
+    background-image: url("../images/icon-cart.svg");
+    display: inline-block;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 18px;
+    font-size: 1.2rem;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
