@@ -1,0 +1,51 @@
+main {
+    width: 80%;
+    max-width: 500px;
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+main picture img {
+    margin-bottom: 18px;
+}
+
+.main-container__perfume {
+    margin-bottom: 24px;
+    font-size: 1.4rem;
+}
+
+.main-container__tittle {
+    margin-bottom: 16px;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+}
+
+.main-container__p {
+    margin-bottom: 36px;
+    font-size: 2rem;
+}
+
+.main-container__price {
+    margin-bottom: 36px;
+    font-size: 3.6rem;
+}
+
+.main-container__price span {
+    font-size: 2rem;
+}
+
+.main-container button {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 36px;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: row;
+}
+
+.separador {
+    margin-right: 18px;
+}

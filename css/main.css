@@ -34,7 +34,7 @@ body {
 
 main {
     width: 80%;
-    max-width: 375px;
+    max-width: 400px;
     background-color: var(--White);
     border-radius: 10px;
 }
@@ -114,20 +114,6 @@ main picture img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Footer*/
 
 
@@ -138,5 +124,14 @@ main picture img {
     bottom: 0;
     margin-bottom: 18px;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    color: var(--Dark-cyan);
+    font-weight: 700;
+    font-family: var(--primaryFont);
+ }
