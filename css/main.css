@@ -71,6 +71,7 @@ main picture img {
 
 .main-container__p {
     font-size: 1.4rem;
+    font-family: var(--primaryFont);
     margin-bottom: 18px;
     color: var(--Dark-grayish-blue);
     font-weight: 500;
@@ -78,9 +79,9 @@ main picture img {
 
 .main-container__price {
     font-size: 2.4rem;
+    font-family: var(--secondaryFont);
     color: var(--Dark-cyan);
     font-weight: 700;
-    font-family: var(--secondaryFont);
     margin-bottom: 8px;
 }
 
